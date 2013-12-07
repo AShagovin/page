@@ -1,5 +1,5 @@
 {
-    "name": "yii/page",
+    "name": "yiisoft/yii2-page",
     "description": "testing yii2 extenstions",
     "authors": [
         {
@@ -13,7 +13,7 @@
 	"yiisoft/yii2" : "*"
     },
     "autoload": {
-        "psr-0": {"yii\\gii\\": ""} 
+        "psr-0": {"yii\\page\\": ""} 
     },
-    "target-dir":"yii/gii"
+    "target-dir":"yii/page"
 }
