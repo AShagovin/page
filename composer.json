@@ -1,5 +1,6 @@
 {
-    "name": "yiisoft/yii2-page",
+    "name": "shagovin/page",
+    "type" : "yii2-extension",
     "description": "testing yii2 extenstions",
     "authors": [
         {
@@ -8,12 +9,11 @@
         }
     ],
     "license": "BSD-3-Clause",
-    "type" : "yii2-extension",
     "require": {
 	"yiisoft/yii2" : "*"
     },
     "autoload": {
-        "psr-0": {"yii\\page\\": ""} 
+        "psr-0": {"shagovin\\": ""} 
     },
-    "target-dir":"yii/page"
+    "target-dir": "shagovin"
 }
