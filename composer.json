@@ -1,0 +1,19 @@
+{
+    "name": "yii/page",
+    "description": "testing yii2 extenstions",
+    "authors": [
+        {
+            "name": "Alex Shagov",
+            "email": "alex.shagov@gmail.com"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "type" : "yii2-extension",
+    "require": {
+	"yiisoft/yii2" : "*"
+    },
+    "autoload": {
+        "psr-0": {"yii\\gii\\": ""} 
+    },
+    "target-dir":"yii/gii"
+}
